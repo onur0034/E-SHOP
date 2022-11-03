@@ -5,17 +5,25 @@ function Product() {
     <div>
       <div className="product">
         <div className="product__info">
-          <p className="title">title</p>
-          <p className="product__price">price</p>
+          <p className="title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            reprehenderit omnis excepturi numquam, rerum distinctio, mollitia
+            quibusdam animi magnam rem repudiandae{" "}
+          </p>
+          <p className="product__price">
+            <small>
+              <strong>$</strong>
+            </small>
+            <strong>30</strong>
+          </p>
           <div className="product__rating"> ⭐ ⭐ ⭐</div>
         </div>
 
         <img
-          src="https://www.sefamerve.com/image/cache/data/201904/04/sefamerve_sirt_cantasi_bmdcanta_ts136si_4137691554369881587_1-752x1152.jpg"
+          src="https://st-hummel.mncdn.com/mnresize/370/370/Content/media/ProductImg/original/980202-2001-scot-spor-canta-637945289102136578.jpg"
           alt=""
-          
-              />
-              <button>add to Basket</button>
+        />
+        <button>add to Basket</button>
       </div>
     </div>
   );
