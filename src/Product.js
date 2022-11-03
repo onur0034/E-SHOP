@@ -2,7 +2,7 @@ import React from 'react'
 import "./Product.css";
 function Product() {
   return (
-    <div>
+    
       <div className="product">
         <div className="product__info">
           <p className="title">
@@ -25,7 +25,7 @@ function Product() {
         />
         <button>add to Basket</button>
       </div>
-    </div>
+    
   );
 }
 
