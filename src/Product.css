@@ -14,7 +14,6 @@
 
 .product__rating {
   display: flex;
-  justify-content: center;
 }
 
 .product > img {
@@ -34,12 +33,10 @@
 
 .product__price {
   margin-top: 5px;
-  justify-content: center;
 }
 
 .product__info {
-  justify-content: center;
-  text-align: center;
+  
   height: 100px;
   margin-bottom: 15px;
 }
