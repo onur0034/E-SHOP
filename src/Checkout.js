@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 import "./Checkout.css";
 import "./CheckoutProduct.js";
-import CheckoutProduct from './CheckoutProduct.js';
+import CheckoutProduct from "./CheckoutProduct.js";
+import Subtotal from "./Subtotal.js";
+
 function Checkout() {
   return (
     <div className="checkout">
@@ -9,16 +11,19 @@ function Checkout() {
         <img
           src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
           alt=""
-          className="checkout__add"
-              />
-              <div>
-                  <h2 className="checkout__title">Your Basket!</h2>
-                  <CheckoutProduct/>
-              </div>
+          className="checkout__ad"
+        />
+        <div>
+          <h2 className="checkout__title">Your Basket!</h2>
+          <CheckoutProduct />
+          <CheckoutProduct />
+        </div>
       </div>
-      <div className="checkout__right"></div>
+      <div className="checkout__right">
+        <Subtotal />
+      </div>
     </div>
   );
 }
 
-export default Checkout
+export default Checkout;

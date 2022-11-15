@@ -1,6 +1,6 @@
 import React from "react";
 import "./CheckoutProduct.css";
-import Subtotal from "./Subtotal";
+
 function CheckoutProduct() {
   return (
     <div className="checkoutProduct">
@@ -22,9 +22,6 @@ function CheckoutProduct() {
         </p>
         <div className="checkoutProduct__rating">⭐</div>
         <button>remove from Basket</button>
-        <div className="checkout__right">
-          <Subtotal />
-        </div>
       </div>
     </div>
   );
